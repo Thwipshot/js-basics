@@ -1,7 +1,8 @@
-let a = 4;
-let b = 8;
+let number = max(8, 10);
+console.log(number);
 
-if (a > b) 
-    console.log("The max number is " + a);
-else 
-    console.log("the max number is " + b);
+function max(a, b) {
+    return (a > b) ? a : b;
+}
+
+
