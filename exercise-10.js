@@ -7,9 +7,4 @@ function showStars(rows) {
             pattern += '*';
             console.log(pattern);
     }
-
-    // for (let i = 1; i <= rows; i++) {
-    //     let stars = "*".repeat(i);
-    //     console.log(stars);
-    // }
 }
